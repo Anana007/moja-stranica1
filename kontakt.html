@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="ms-css1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <h1>Kontaktirajte nas</h1>
+    <form name="pošalji" action="dodatak.html" method="get" enctype="multipart/form-data">
+    <p>
+        <label for="FirstName">Ime:</label>
+        <input id="FirstName" name="FirtsName" type="text" size="25" maxlength="15" placeholder="Unesite svoje ime" required>
+    </p> 
+    <p>
+       <label for="LastName">Prezime:</label>
+        <input id="LastName" name="LastName" type="text" size="25" maxlength="15" placeholder="Unesite svoje prezime" required>
+    </p> 
+     <p> 
+        <label for="mail">E pošta:</label>
+        <input id="mail" name="email" type="email" size="25" maxlength="50" placeholder="Obavezan @" required>
+    </p>  
+     <p>
+        <label for="komentar">Upit</label><br>
+        <textarea id="komentar" name="komentar" cols="25" rows="10" required maxlength="999"></textarea>
+    </p>  
+    <input name="reset_btn" type="reset" value="Poništi obrazac">
+    <input name="submit_btn" type="submit" value="Pošalji podatke"><br>
+    </form>
+    <br><a href="moja-stranica.html">Povratak na početnu stranicu</a>
+</body>
+</html>
